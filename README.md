@@ -6,7 +6,7 @@
 ###### body
 ``` 
 {
-    "positive": "Eu odeio pessoas"
+    "negative": "Eu odeio pessoas"
 }
 ```
 
