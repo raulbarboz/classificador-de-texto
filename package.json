@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-runtime start ecosystem.config.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "ml-classify-text": "^2.0.0",
-    "pm2": "^4.5.4",
-    "translation-google": "^0.2.1"
+    "translation-google": "^0.2.1",
+    "pm2": "^4.5.4"
   }
 }
